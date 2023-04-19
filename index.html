@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/zumabooks.svg"/>
+    <title>ZumaBooks</title>  
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__aberto" >
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Back-End</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Banco de dados</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Marketing</a>
+                </li>
+            </ul>
+            <img class="cabecalho__menu-logo container__imagem-logo" src="assets/zumabooks.svg" alt="Logo da ZumaBooks">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">uma</b>Books</h1>
+        </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__aberto">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Back-end</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Banco de dados</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+                <li class="lista-menu__item"> 1
+                    <a href="#" class="lista-menu__link">Marketing</a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a> </li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Escritores</a> </li>
+        </ul>
+        <div class="container">
+            <a href="#"><img src="assets/favoritos.svg" alt="Favoritos" class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link"><img src="assets/compras.svg" alt="Compras" class="container__imagem"><p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link"><img src="assets/usuario.svg" alt="Meu perfil" class="container__imagem"><p class="container__texto">Meu perfil</p></a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Precisa de ajuda para começar?</h2>
+        <p class="banner__texto">Deixe-nos saber o que lhe interessa para fazer ótimas recomendações!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Quais são seus interesses?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Lançamentos</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/Guia Front-end.svg" alt="Livro Guia Front-End"></div>
+                    <div class="swiper-slide"><img src="assets/Javascript.svg" alt="Livro JavaScript"></div>
+                    <div class="swiper-slide"><img src="assets/Nodejs.svg" alt="Livro Node.JS"></div>
+                    <div class="swiper-slide"><img src="assets/Portugol.svg" alt="Livro Portugol"></div>
+                    <div class="swiper-slide"><img src="assets/ReactNative.svg" alt="Livro ReactNative"></div>
+                    <div class="swiper-slide"><img src="assets/Tuning.svg" alt="Livro Tuning"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Uma dica para iniciantes:</h3>
+                        <h2 class="descricao__titulo-livro">Scratch e Lógica de Programação</h2>
+                        <p class="descricao__texto">Aprenda Scratch e crie jogos, animações e histórias interativas com programação em blocos. </p>
+                    </div>
+                    <img src="assets/scratch.svg" class="descricao__imagem">
+                </div>
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="assets/favoritos.svg" alt="Favoritar livro"> </li>
+                        <li class="botoes__item"><img src="assets/compras.svg" alt="Adicionar ao carrinho"> </li>
+                    </ul>
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/Angular.svg" alt="Livro Angular 11"></div>
+                    <div class="swiper-slide"><img src="assets/MetricasAgeis.svg" alt="Livro Metricas Ágeis"></div>
+                    <div class="swiper-slide"><img src="assets/UX.svg" alt="Livro UX estratégico"></div>
+                    <div class="swiper-slide"><img src="assets/Tuning.svg" alt="Livro Tuning"></div>
+                    <div class="swiper-slide"><img src="assets/Liderança.svg" alt="Livro Liderança"></div>
+                    <div class="swiper-slide"><img src="assets/ApacheKafka.svg" alt="Livro ApacheKafka"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <img src="assets/Estrelinhas.svg" class="descricao__avaliacao">
+                        <h3 class="descricao__titulo">Estudante do Mês</h3>
+                        <h2 class="descricao__titulo-livro">mags</h2>
+                        <p class="descricao__texto">Mags é músico e especialista em front-end e photoshop!</p>
+                    </div>
+                    <img src="assets/mags.png" class="descricao__imagem">
+                </div>
+                <div class="card__botoes mags__botoes">
+                    <ul class="botoes mags">
+                        <li class="botoes__item"><img src="assets/favoritos.svg" alt="Favoritar livro"> </li>
+                        <li class="botoes__item"><img src="assets/compras.svg" alt="Adicionar ao carrinho"> </li>
+                    </ul>
+                    <a href="https://www.youtube.com/@sillymags" target="blank" class="botoes__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="conteudos">
+        <h2 class="conteudos__titulo">CONTEÚDOS MAIS PROCURADOS</h2>
+        <ul class="conteudos__lista">
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">iOS</a>
+            </li>
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">Back-end</a>
+            </li>
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">UX & Design</a>
+            </li>
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">HTML & CSS</a>
+            </li>
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">Marketing Digital</a>
+            </li>
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">MySQL</a>
+            </li>
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">JavaScript</a>
+            </li>
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">Metodologias Ágeis</a>
+            </li>
+            <li class="conteudos__item">
+                <a href="#" class="conteudos__link">Scrum</a>
+            </li>
+        </ul>
+    </section>
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro do ZumaBooks!</h2>
+            <p class="contato__texto">Atualizações no catálogo, promoções exclusivas e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+    <hr/>
+    <footer class="rodape">
+        <div class="container__rodape">
+            <h2 class="rodape__titulo">&copy Desenvolvido por Caian Quirino</h2>
+            <p class="rodape__texto">ZumaBooks é um aplicativo compra de e-books e livros físicos fictício, com logos e imagens monstadas a partir de logos encontradas gratuitamente no <a href="www.flaticon.com" class="rodape__link">Flaticon</a>, <a href="www.google.com" class="rodape__link">Google</a> e materiais da aula da Alura. O ZumaBooks não é comercializado e é um projeto de aprendizado pessoal do autor. </p>
+        </div>
+        <div class="container__rodape-lista">
+            <ul class="lista__rodape">
+                <li class="rodape__lista-titulo">Outros projetos</li>
+                <li class="rodape__lista-item">
+                    <img src="assets/portfolio.svg" alt="Portfolio">
+                    <a href="https://portfolio-one-phi-36.vercel.app/" target="blank" class="rodape__lista-link">Portfólio</a>
+                </li>
+                <li class="rodape__lista-item">
+                    <img src="assets/zumafilmes.svg" alt="Zuma Filmes">
+                    <a href="https://zuma-five.vercel.app/" target="blank" class="rodape__lista-link">Zuma Filmes</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 30,
+            slidesPerView: 2.5,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 5000,
+            },
+        });
+    </script>
+</body>
+</html>
