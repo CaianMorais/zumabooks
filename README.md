@@ -5,7 +5,7 @@
 Nesse projeto eu criei do zero uma interface principal de uma plataforma de compra de livros e e-books em HTML, CSS e com SwiperJS para mostrar capas dos livros automaticamente e em looping no corpo do site e cards no corpo com recomendações. O site foi feito <strong>mobile-first</strong>, ou seja, foi criado para dispositicos móveis primeiro e fui deixando ele responsivo para outras plataformas (Tablet e Desktop), então recomendo que tente acessar o site em outra plataforma sem ser desktop para verificar a as outras versões do site. Vale lembrar, que assim como o <a href="https://github.com/CaianMorais/zuma">projeto anterior</a>, o <strong>ZumaBooks</strong> é uma plataforma fictícia com logos e imagens criadas e montadas com imagens encontradas gratuitamente nas ferramentas de pesquisa internet à fora e nos materiais do curso da Alura.
 
 ## :link: Acesse o ZumaBooks:
-* <a href="#"> Clique aqui</a>
+* <a href="https://bit.ly/zumabooks/"> Clique aqui</a>
 
 ## :wrench: Ferramentas utilizadas:
 * HTML<br>
