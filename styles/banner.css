@@ -22,13 +22,14 @@
     border-radius: 30px;
     padding: 1rem;
     width: 100%;
+    text-align: center;
 }
 
 .banner__pesquisa::placeholder{
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;
-    text-align:center;
+    text-align: center;
     color: var(--branco);
     background: url(../assets/pesquisa.svg) no-repeat;
     background-position: 1rem;

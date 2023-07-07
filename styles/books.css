@@ -1,0 +1,113 @@
+.wrap {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    margin: 4rem 0;
+}
+
+.btn {
+    background-color: var(--azul);
+    border: none;
+    cursor: pointer;
+    height: 44px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    transition: transform .7s ease;
+}
+
+.btn:hover {
+    color: var(--laranja);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.livros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+.livro {
+    width: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 644px;
+    margin-bottom: 1rem;
+}
+  
+.indisponivel {
+    opacity: 0.3;
+}
+
+.livro__titulo {
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+}
+  
+.livro__descricao {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    margin: 1rem 0;
+}
+  
+.livro__preco {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--laranja);
+}
+  
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+  
+.tag {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+    padding: 5px 4px;
+    background: rgba(197, 197, 197, 0.25);
+    border-radius: 4px;
+    margin-right: 1rem;
+}
+  
+.books__disponiveis {
+    width: 100%;
+    height: 80px;
+    background: var(--degrade);
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.books__disponiveis p {
+    color: #fff;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 2.5em;
+}

@@ -4,6 +4,7 @@
 @import url("styles/conteudos.css");
 @import url("styles/contato.css");
 @import url("styles/rodape.css");
+@import url("styles/books.css");
 
 *{
     scroll-behavior: smooth;
@@ -25,4 +26,9 @@ body{
     font-size: 16px;
     font-weight: 400;
 
+}
+
+.cabecalho__home{
+    text-decoration: none;
+    color: black;
 }

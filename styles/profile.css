@@ -1,0 +1,93 @@
+.cadastro__infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--degrade);
+    padding: 2rem;
+}
+
+.cadastro__titulo{
+    color: var(--branco);
+    font-weight: 700;
+    font-size:30px;
+    margin-bottom: 0.4rem;
+}
+
+.cadastro__texto{
+    font-weight: 300;
+    color:var(--cor-fundo);
+}
+
+.principal{
+    width: 50vw;
+    margin: 2rem auto 6rem auto;
+}
+
+.principal__titulo{
+    font-weight: 700;
+    color: var(--laranja);
+    font-size: 24px;
+    margin: 2rem 0;
+}
+
+.campo__etiqueta{
+    display: block;
+    font-weight: 500;
+    color: var(--azul);
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+.campo__escrita{
+    border: 2px solid var(--azul);
+    border-radius: 30px;
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--cor-fundo);
+}
+
+.formulario__campo{
+    margin: .8rem 3rem .8rem 0;
+}
+
+.formulario__dupla{
+    display: flex;
+}
+
+.formulario__botao{
+    background: var(--degrade);
+    padding: 1rem 2rem;
+    font-weight: 700;
+    font-size: 24px;
+    border: none;
+    border-radius: 4px;
+    color: var(--azul);
+    cursor: pointer;
+    float:right;
+}
+
+.formulario__erro{
+    display: flex;
+    margin-top: .5rem;
+    align-items: center;
+}
+
+.erro__imagem{
+    width: 16px;
+    height: 16px;
+    margin: 0 .5rem;
+    background-image: url('../assets/warning.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.erro__texto{
+    font-size: 12px;
+    line-height: 18px;
+    color: red;
+}
+
+.cadastro__imagem{
+    margin-top: 2rem;
+}

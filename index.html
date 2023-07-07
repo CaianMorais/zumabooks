@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="assets/zumabooks.svg"/>
-    <title>ZumaBooks</title>  
+    <title>Home - ZumaBooks</title>  
 </head>
 <body>
     <header class="cabecalho">
@@ -40,7 +40,7 @@
                 </li>
             </ul>
             <img class="cabecalho__menu-logo container__imagem-logo" src="assets/zumabooks.svg" alt="Logo da ZumaBooks">
-            <h1 class="container__titulo"><b class="container__titulo--negrito">uma</b>Books</h1>
+            <a class="cabecalho__home" href="index.html"> <h1 class="container__titulo"><b class="container__titulo--negrito">uma</b>Books</h1></a>
         </div>
         <ul class="opcoes">
             <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
@@ -60,19 +60,19 @@
                 <li class="lista-menu__item"> 
                     <a href="#" class="lista-menu__link">Design & UX</a>
                 </li>
-                <li class="lista-menu__item"> 1
+                <li class="lista-menu__item">
                     <a href="#" class="lista-menu__link">Marketing</a>
                 </li>
             </ul>
 
             <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a> </li>
-            <li class="opcoes__item"><a href="#" class="opcoes__link">Escritores</a> </li>
+            <li class="opcoes__item"><a href="books.html" class="opcoes__link">Todos os livros</a> </li>
         </ul>
         <div class="container">
             <a href="#"><img src="assets/favoritos.svg" alt="Favoritos" class="container__imagem container__imagem-transparente"></a>
             <a href="#" class="container__link"><img src="assets/compras.svg" alt="Compras" class="container__imagem"><p class="container__texto">Minha sacola</p>
             </a>
-            <a href="#" class="container__link"><img src="assets/usuario.svg" alt="Meu perfil" class="container__imagem"><p class="container__texto">Meu perfil</p></a>
+            <a href="profile.html" class="container__link"><img src="assets/usuario.svg" alt="Meu perfil" class="container__imagem"><p class="container__texto">Meu perfil</p></a>
         </div>
     </header>
     <section class="banner">
@@ -229,5 +229,6 @@
             },
         });
     </script>
+    <script src="script.js"></script>
 </body>
 </html>

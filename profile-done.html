@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="icon" type="image/png" href="assets/zumabooks.svg"/>
+    <title>Perfil - ZumaBooks</title>  
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__aberto" >
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Front-End</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Back-End</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Banco de dados</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Marketing</a>
+                </li>
+            </ul>
+            <img class="cabecalho__menu-logo container__imagem-logo" src="assets/zumabooks.svg" alt="Logo da ZumaBooks">
+            <a class="cabecalho__home" href="index.html"> <h1 class="container__titulo"><b class="container__titulo--negrito">uma</b>Books</h1></a>
+        </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu" class="opcoes__aberto">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Back-end</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Banco de dados</a>
+                </li>
+                <li class="lista-menu__item"> 
+                    <a href="#" class="lista-menu__link">Design & UX</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Marketing</a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a> </li>
+            <li class="opcoes__item"><a href="books.html" class="opcoes__link">Todos os livros</a> </li>
+        </ul>
+        <div class="container">
+            <a href="#"><img src="assets/favoritos.svg" alt="Favoritos" class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link"><img src="assets/compras.svg" alt="Compras" class="container__imagem"><p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="profile.html" class="container__link"><img src="assets/usuario.svg" alt="Meu perfil" class="container__imagem"><p class="container__texto">Meu perfil</p></a>
+        </div>
+    </header>
+    
+    <section class="banner">
+        <h2 class="banner__titulo">Cadastro finalizado</h2>
+    </section>
+
+    <main class="principal cadastro">
+        <h2 class="principal__titulo">Sucesso!</h2>
+        <h3 class="principal__subtitulo cadastro__subtitulo">Você finalizou seu cadastro!</h3>
+        <img src="./assets/cadastrorealizado.png" alt="Ficha de cadastro completada"
+            class="cadastro__imagem">
+    </main>
+    <footer class="rodape">
+        <div class="container__rodape">
+            <h2 class="rodape__titulo">&copy Desenvolvido por Caian Quirino</h2>
+            <p class="rodape__texto">ZumaBooks é um aplicativo compra de e-books e livros físicos fictício, com logos e imagens monstadas a partir de logos encontradas gratuitamente no <a href="www.flaticon.com" class="rodape__link">Flaticon</a>, <a href="www.google.com" class="rodape__link">Google</a> e materiais da aula da Alura. O ZumaBooks não é comercializado e é um projeto de aprendizado pessoal do autor. </p>
+        </div>
+        <div class="container__rodape-lista">
+            <ul class="lista__rodape">
+                <li class="rodape__lista-titulo">Outros projetos</li>
+                <li class="rodape__lista-item">
+                    <img src="assets/portfolio.svg" alt="Portfolio">
+                    <a href="https://portfolio-one-phi-36.vercel.app/" target="blank" class="rodape__lista-link">Portfólio</a>
+                </li>
+                <li class="rodape__lista-item">
+                    <img src="assets/zumafilmes.svg" alt="Zuma Filmes">
+                    <a href="https://zuma-five.vercel.app/" target="blank" class="rodape__lista-link">Zuma Filmes</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
